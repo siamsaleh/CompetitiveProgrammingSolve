@@ -1,6 +1,7 @@
 package leetcode;
 
 //08/26/2022 09:56
+//Two Sum
 
 public class P1 {
     public static void main(String[] args) {
@@ -9,6 +10,8 @@ public class P1 {
 
         int array[] = twoSum(nums, target);
         System.out.println("[" + array[0] + ", "+ array[1] + "]");
+
+
     }
 
     //Submitted
@@ -27,7 +30,6 @@ public class P1 {
         }
         return result;
     }
-
 }
 
 
